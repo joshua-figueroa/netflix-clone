@@ -13,7 +13,7 @@
 
 # firebase
 /.firebase
-.firbaserc
+.firebaserc
 firebase.json
 
 # misc
