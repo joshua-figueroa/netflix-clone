@@ -1,13 +1,32 @@
+@font-face {
+    font-family: "Netflix Sans 400";
+    src: url("https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Rg.woff2") format("woff2"), url("https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Rg.woff") format("woff");
+    font-weight: 400 !important;
+    font-display: inherit;
+}
+
+@font-face {
+    font-family: "Netflix Sans 700";
+    src: url("https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Md.woff2") format("woff2"), url("https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Md.woff") format("woff");
+    font-weight: 700 !important;
+    font-display: inherit;
+}
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    margin: 0;
+    font-family: 'Netflix Sans 400','Helvetica Neue',Helvetica,Arial,sans-serif;
+    overflow-x: hidden;
+    background-color: #111111;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+.netflix-sans-700 {
+    font-family: 'Netflix Sans 700';
+}
+
+.netflix-sans-400 {
+    font-family: 'Netflix Sans 400';
 }

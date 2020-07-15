@@ -1,0 +1,69 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+
+    /** Animations **/
+    transition-timing-function: ease-in;
+    transition: all 0.65s;
+    z-index: 1000;
+}
+
+.navbar__contents {
+    display: flex;
+    flex-direction: row;
+    padding: 15px 4%;
+    align-items: center;
+}
+
+.navbar__navigation {
+    margin-left: 1.5rem;
+}
+
+.navbar__brand {
+    display: flex;
+}
+
+.navbar__logo {
+    object-fit: contain;
+    width: 95px;
+}
+
+.navbar__avatar {
+    object-fit: contain;
+    width: 35px;
+}
+
+.navbar__dark {
+    background-color: #111111;
+}
+
+.primary__nav {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+.navigation__tab {
+    list-style-type: none;
+    margin-left: 20px;
+}
+
+.navigation__tab a {
+    text-decoration: none;
+    color: #e5e5e5;
+    font-size: 14px;
+}
+
+.navigation__tab .active, .navigation__tab a:hover {
+    font-family: 'Netflix Sans 700' !important;
+    color: white;
+}
+
+.navbar__secondary__nav {
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+}

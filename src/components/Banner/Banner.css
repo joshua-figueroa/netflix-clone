@@ -1,0 +1,74 @@
+.banner {
+    color: white;
+    object-fit: contain;
+    height: 500px;
+}
+
+.banner__contents {
+    margin-left: 4%;
+    padding-top: 130px;
+    height: 190px;
+}
+
+.banner__title {
+    font-size: 3rem;
+    font-family: 'Netflix Sans 700';
+    font-weight: 700;
+    padding-bottom: 0.3rem;
+}
+
+.banner__description {
+    width: 40%;
+    line-height: 1.3;
+    padding-top: 0.5rem;
+    font-size: 1.23rem;
+    font-weight: 400 !important;
+    text-shadow: 2px 2px 4px rgba(0,0,0,.45);
+}
+
+.banner__button {
+    cursor: pointer;
+    outline: none;
+    border: none;
+    font-family: 'Netflix Sans 700';
+    font-size: 1rem;
+    border-radius: 0.2vw;
+    padding: 0.5rem 1.5rem;
+    margin-right: 1rem;
+    margin-top: 1.4rem;
+    background-color: rgba(51, 51, 51, 0.5);
+}
+
+.banner__button:hover {
+    transition: all 0.2s;
+}
+
+.banner__button.play {
+    background-color: #ffffff;
+    color: #181818;
+}
+
+.banner__button.play:hover {
+    background-color: #bbbbbb;
+}
+
+.banner__button.info {
+    background-color: rgba(133,133,133,0.6);
+    color: white;
+}
+
+.banner__button.info:hover {
+    background-color: rgba(66,66,66,0.6);
+    color: white;
+}
+
+.banner__fade {
+    padding-top: 72px;
+    height: 7.4rem;
+    background-image: linear-gradient(180deg, transparent, rgba(37, 37, 37, 0.61), #111111);
+}
+
+.banner__trailer {
+    z-index: 1000;
+    position: relative;
+}
