@@ -5,6 +5,6 @@ This is a Netflix Clone made with ReactJS and TMBD API. The purpose of this is t
 ## How to use
 Hover the movie you selected to show its information. Click the play button to show the trailer sourced from YpuTube.
 
-### Deployment
+## Deployment
 
 The website is hosted on Google Firebase. Check it out here 👉🏽 [Netflix Clone](https://netflix-clone-5fdcf.firebaseapp.com/)
