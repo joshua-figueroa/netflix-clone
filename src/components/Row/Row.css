@@ -1,6 +1,7 @@
 .row {
     margin-left: 25px;
     padding: 0;
+    -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
 .row__name {
@@ -16,16 +17,33 @@
 }
 
 .container {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: row;
 	flex-direction: row;
+	-ms-flex-wrap: nowrap;
 	flex-wrap: nowrap;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
     overflow: hidden;
 }
 .container .body-item {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
 	flex-direction: column;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
 	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
 	align-items: center;
 	opacity: 0;
     visibility: hidden;
@@ -39,10 +57,16 @@
     width: 40vw;
     height: 20vw;
     opacity: 1;
+    -webkit-transition: 0.4s;
+    -o-transition: 0.4s;
     transition: 0.4s;
+    -webkit-transition-delay: 0.4s;
+    -o-transition-delay: 0.4s;
     transition-delay: 0.4s;
 }
 .container .body-item-1 {
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
     flex-grow: 1;
     text-align: center;
     opacity: 0.4;
@@ -50,9 +74,12 @@
 .container .body-item-1:hover {
 	color: #E50914;
     opacity: 1;
+    -webkit-transition: 0.2s;
+    -o-transition: 0.2s;
     transition: 0.2s;
 }
 .container .body-item-2 {
+    -ms-flex-item-align: start;
     align-self: flex-start;
     font-size: 1.6rem;
     margin-bottom: 0.5rem;
@@ -60,9 +87,11 @@
     width: 88%;
 }
 .container .body-item-3 {
+    -ms-flex-item-align: start;
     align-self: flex-start;
 }
 .container .body-item-4 {
+    -ms-flex-item-align: start;
     align-self: flex-start;
     width: 88%;
 }
@@ -71,17 +100,29 @@
     text-align: center;
 }
 .container .body-item-6 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -ms-flex-item-align: end;
     align-self: flex-end;
     position: absolute;
+    right: 10px;
 }
 .container .play {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
 }
 .container .play i {
     margin-top: 3.4rem;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
     width: 2rem;
     height: 2rem;
@@ -99,6 +140,8 @@
     height: 15vw;
     margin-right: 6px;
     cursor: pointer;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
     transition: 0.5s;
     color: #e5e5e5;
     background-size: 100% 100%;
@@ -110,8 +153,12 @@
 .item:hover {
     width: 40vw;
     height: 22vw;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
     transition: 0.5s;
     opacity: 1;
+    -webkit-transition-delay: 0.3s;
+    -o-transition-delay: 0.3s;
     transition-delay: 0.3s;
     background-size: 100% 100%;
 }
@@ -122,9 +169,14 @@
     width: 40vw;
 }
 .icon-set {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
-    margin-top: 5.5rem;
+    margin-top: 4rem;
     margin-right: 10px;
 }
 .icon-set i {
@@ -138,6 +190,8 @@
 .icon-set i:hover {
     border-color: #e5e5e5;
     background: rgba(0, 0, 0, 0.7);
+    -webkit-transition: 0.4s;
+    -o-transition: 0.4s;
     transition: 0.4s;
 }
 .icon-set .fa-thumbs-up:hover {
@@ -154,8 +208,14 @@
     background-color: rgba(20, 20, 20, 0.5);
     width: 4%;
     height: 15vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
     position: absolute;
     cursor: pointer;
@@ -165,6 +225,8 @@
 }
 .arrow-right:hover, .arrow-left:hover {
     opacity: 1;
+    -webkit-transition: 400ms ease-in-out;
+    -o-transition: 400ms ease-in-out;
     transition: 400ms ease-in-out;
 }
 .arrow-right {
