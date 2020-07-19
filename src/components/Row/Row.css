@@ -118,9 +118,9 @@
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
+    margin-top: 2.5rem;
 }
 .container .play i {
-    margin-top: 3.4rem;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
